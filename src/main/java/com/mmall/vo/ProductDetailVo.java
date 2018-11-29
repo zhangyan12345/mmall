@@ -43,12 +43,12 @@ public class ProductDetailVo {
         this.name = name;
     }
 
-    public String getSubTitle() {
+    public String getSubtitle() {
         return subtitle;
     }
 
-    public void setSubTitle(String subTitle) {
-        this.subtitle = subTitle;
+    public void setSubtitle(String subtitle) {
+        this.subtitle = subtitle;
     }
 
     public String getMainImage() {
