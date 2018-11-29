@@ -207,7 +207,7 @@
       and name like #{productName}
     </if>
     <if test="categoryIdList != null">
-      and categoryId in
+      and category_id in
       <foreach collection="categoryIdList" item="item" index="index" open="(" separator="," close=")">
         #{item}
       </foreach>
