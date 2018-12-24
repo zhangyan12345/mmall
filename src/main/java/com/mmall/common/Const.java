@@ -10,6 +10,9 @@ public class Const {
     public static final String EMAil = "email";
     public static final String USERNAME = "username";
 
+    public interface RedisCacheExtime{
+        int REDIS_SESSION_EXTIME = 60 * 30;//30分钟
+    }
     public interface ProductListOrderBy{
         Set<String> PRICE_ASC_DESC = Sets.newHashSet("price_dese","price_asc");
     }
